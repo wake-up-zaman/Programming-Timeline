@@ -14,9 +14,12 @@
 body{
     font: normal 1rem/1.5 'Arial',sans-serif;
     background: var(--primary-color);
-    color: #fff;
+    color: rgb(35, 35, 35);
     overflow-x: hidden;
     padding-bottom: 50px;
+}
+h3{
+    color: rgb(255, 255, 255);
 }
 
 #main-header{
