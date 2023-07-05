@@ -14,12 +14,9 @@
 body{
     font: normal 1rem/1.5 'Arial',sans-serif;
     background: var(--primary-color);
-    color: rgb(35, 35, 35);
+    color: #fff;
     overflow-x: hidden;
     padding-bottom: 50px;
-}
-h3{
-    color: rgb(255, 255, 255);
 }
 
 #main-header{
@@ -82,8 +79,8 @@ h1{
     bottom: 0;
     width: 25px;
     height: 25px;
-    background: var(--secondary-color);
-    transform: translate(-50%);
+    background: inherit;
+    transform: translateX(-50%);
     border-radius: 50%;
     transition: background 0.5s ease-in-out;
 
@@ -118,6 +115,10 @@ h1{
     transform: none;
     visibility: visible;
     opacity: 1;
+}
+
+#timeline ul li.show:after{
+    background: var(--secondary-color);
 }
 
 @media(max-width: 900px){
